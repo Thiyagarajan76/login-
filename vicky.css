@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form{
+    width: 25rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(133, 145, 150, 0.54);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,37);
+    border-radius: 30px;
+    border-left: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+label{
+    font-size: 20px;
+    color:white;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+}
+input{
+    width: 80%;
+    margin:5% 7%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    opacity: .5;
+}
+button{
+    width: 50%;
+    margin:3% auto;
+    color: red;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.418);
+    padding: 10px 30px;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+}
+div{
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(227, 149, 149, 0.534);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,37);
+    border-radius: 30px;
+    border-left: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+} 
+a:hover{
+    color: rgb(247, 17, 17);
+}
+
